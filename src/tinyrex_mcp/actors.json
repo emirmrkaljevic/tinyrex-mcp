@@ -1,0 +1,121 @@
+[
+  {
+    "name": "tech-stack-detector",
+    "title": "Tech Stack Detector - Bulk Wappalyzer & BuiltWith Alternative",
+    "description": "Detect 7,600+ technologies (CMS, e-commerce, analytics, CDN, payments) on domains, plus email provider, SPF and DMARC.",
+    "storeUrl": "https://apify.com/tinyrex/tech-stack-detector",
+    "exampleInput": {"domains": ["shopify.com"], "includeDns": true, "minConfidence": 50}
+  },
+  {
+    "name": "ats-jobs-scraper",
+    "title": "Greenhouse / Lever / Ashby Jobs Scraper",
+    "description": "Scrape open jobs from Greenhouse, Lever, Ashby, Personio, Teamtailor and Recruitee career pages via official ATS feeds.",
+    "storeUrl": "https://apify.com/tinyrex/ats-jobs-scraper",
+    "exampleInput": {"companies": ["duolingo.com"], "maxJobsPerCompany": 10}
+  },
+  {
+    "name": "shopify-products-scraper",
+    "title": "Shopify Products Scraper",
+    "description": "Export products from any Shopify store: prices, variants, SKUs, stock, images, discounts.",
+    "storeUrl": "https://apify.com/tinyrex/shopify-products-scraper",
+    "exampleInput": {"stores": ["deathwishcoffee.com"], "maxProductsPerStore": 10}
+  },
+  {
+    "name": "workday-jobs-scraper",
+    "title": "Workday Jobs Scraper",
+    "description": "All open jobs from any Workday career site (myworkdayjobs.com): description, posting date, location, remote type.",
+    "storeUrl": "https://apify.com/tinyrex/workday-jobs-scraper",
+    "exampleInput": {"companies": ["https://workday.wd5.myworkdayjobs.com/Workday"], "maxJobsPerCompany": 10}
+  },
+  {
+    "name": "woocommerce-products-scraper",
+    "title": "WooCommerce Products Scraper",
+    "description": "Export products from any WooCommerce store: prices, variations, SKU, stock, categories, images.",
+    "storeUrl": "https://apify.com/tinyrex/woocommerce-products-scraper",
+    "exampleInput": {"stores": ["https://nalgene.com"], "maxProductsPerStore": 10}
+  },
+  {
+    "name": "ted-tenders-scraper",
+    "title": "TED EU Tenders Scraper",
+    "description": "Search EU public tenders and contract awards on TED via the official API.",
+    "storeUrl": "https://apify.com/tinyrex/ted-tenders-scraper",
+    "exampleInput": {"keywords": ["software"], "countries": ["DE"], "publishedWithinDays": 7, "maxResults": 10}
+  },
+  {
+    "name": "eu-grants-scraper",
+    "title": "EU Grants Scraper - Horizon Europe & EU Funding",
+    "description": "Open and upcoming EU funding calls from the official Funding & Tenders Portal.",
+    "storeUrl": "https://apify.com/tinyrex/eu-grants-scraper",
+    "exampleInput": {"keywords": ["artificial intelligence"], "statuses": ["open"], "maxResults": 10}
+  },
+  {
+    "name": "remote-jobs-scraper",
+    "title": "Remote Jobs Scraper",
+    "description": "Remote jobs from Himalayas, Remote OK, We Work Remotely, Working Nomads and Arbeitnow via official APIs.",
+    "storeUrl": "https://apify.com/tinyrex/remote-jobs-scraper",
+    "exampleInput": {"keywords": ["python"], "sources": ["himalayas", "remoteok"], "maxResultsPerSearch": 10}
+  },
+  {
+    "name": "rss-feed-scraper",
+    "title": "RSS Feed Scraper",
+    "description": "Any RSS, Atom or JSON Feed (or a website with auto-discovered feeds) to clean JSON/CSV.",
+    "storeUrl": "https://apify.com/tinyrex/rss-feed-scraper",
+    "exampleInput": {"feeds": ["https://www.nasa.gov/feed/"], "maxItemsPerFeed": 5}
+  },
+  {
+    "name": "sitemap-scraper",
+    "title": "Sitemap Scraper",
+    "description": "Every URL from a website's XML sitemaps with lastmod, images, hreflang; optional status check.",
+    "storeUrl": "https://apify.com/tinyrex/sitemap-scraper",
+    "exampleInput": {"startUrls": ["https://apify.com"], "maxUrlsPerSite": 50, "checkStatus": false}
+  },
+  {
+    "name": "contact-details-extractor",
+    "title": "Contact Details Extractor",
+    "description": "Extract company emails, phones and social links from user-supplied domains.",
+    "storeUrl": "https://apify.com/tinyrex/contact-details-extractor",
+    "exampleInput": {"domains": ["example.com"], "maxPagesPerDomain": 3}
+  },
+  {
+    "name": "us-uk-tenders-scraper",
+    "title": "SAM.gov & UK Contracts Finder Tenders Scraper",
+    "description": "US federal opportunities on SAM.gov and UK public tenders on Contracts Finder via official APIs.",
+    "storeUrl": "https://apify.com/tinyrex/us-uk-tenders-scraper",
+    "exampleInput": {"sources": ["contracts-finder"], "keywords": ["software"], "publishedWithinDays": 7, "maxResults": 10}
+  },
+  {
+    "name": "tenderned-tenders-scraper",
+    "title": "TenderNed Netherlands Tenders Scraper",
+    "description": "Dutch public procurement notices from TenderNed via the official keyless JSON API.",
+    "storeUrl": "https://apify.com/tinyrex/tenderned-tenders-scraper",
+    "exampleInput": {"keywords": ["software"], "publishedWithinDays": 14, "maxResults": 10}
+  },
+  {
+    "name": "seo-on-page-audit",
+    "title": "SEO On-Page Audit",
+    "description": "On-page SEO audit: title, meta, H1/H2, canonical, hreflang, Open Graph, Twitter cards, JSON-LD.",
+    "storeUrl": "https://apify.com/tinyrex/seo-on-page-audit",
+    "exampleInput": {"startUrls": ["https://example.com"], "maxUrls": 3}
+  },
+  {
+    "name": "broken-link-checker",
+    "title": "Broken Link Checker",
+    "description": "Find broken links (404s, 5xx, dead external links, broken images, redirect chains) on a site.",
+    "storeUrl": "https://apify.com/tinyrex/broken-link-checker",
+    "exampleInput": {"startUrls": ["https://quotes.toscrape.com"], "maxPagesPerSite": 10, "maxLinksToCheck": 50}
+  },
+  {
+    "name": "gleif-lei-lookup",
+    "title": "LEI Lookup - GLEIF LEI Search & Validation",
+    "description": "Bulk LEI lookup from the official GLEIF API (CC0): LEI codes, company names, BIC or ISIN.",
+    "storeUrl": "https://apify.com/tinyrex/gleif-lei-lookup",
+    "exampleInput": {"companyNames": ["Siemens AG"], "maxResultsPerName": 1}
+  },
+  {
+    "name": "uk-companies-house-lookup",
+    "title": "UK Companies House Lookup",
+    "description": "UK company profiles from the official Companies House API by number or name (user API key for full data).",
+    "storeUrl": "https://apify.com/tinyrex/uk-companies-house-lookup",
+    "exampleInput": {"companyNumbers": ["00445790"], "includeOfficers": false}
+  }
+]
