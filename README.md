@@ -53,7 +53,7 @@ If the script is not on `PATH`, use the module form:
 
 | Tool | What it does |
 |---|---|
-| `list_actors` | Lists all **17 public** TinyRex actors (name, title, description, Store URL, example input). |
+| `list_actors` | Lists all **22 public** TinyRex actors (name, title, description, Store URL, example input). |
 | `run_actor` | Runs `tinyrex/<name>` with an `input` object, waits for the run, returns dataset items (default max 50) plus `itemCount`, `runId`, and status. |
 
 ### Example: LEI lookup
@@ -90,6 +90,11 @@ If the script is not on `PATH`, use the module form:
 | broken-link-checker | [apify.com/tinyrex/broken-link-checker](https://apify.com/tinyrex/broken-link-checker) |
 | gleif-lei-lookup | [apify.com/tinyrex/gleif-lei-lookup](https://apify.com/tinyrex/gleif-lei-lookup) |
 | uk-companies-house-lookup | [apify.com/tinyrex/uk-companies-house-lookup](https://apify.com/tinyrex/uk-companies-house-lookup) |
+| bulk-website-screenshot | [apify.com/tinyrex/bulk-website-screenshot](https://apify.com/tinyrex/bulk-website-screenshot) |
+| bulk-email-validator | [apify.com/tinyrex/bulk-email-validator](https://apify.com/tinyrex/bulk-email-validator) |
+| pdf-ocr-text-extractor | [apify.com/tinyrex/pdf-ocr-text-extractor](https://apify.com/tinyrex/pdf-ocr-text-extractor) |
+| npi-registry-lookup | [apify.com/tinyrex/npi-registry-lookup](https://apify.com/tinyrex/npi-registry-lookup) |
+| lighthouse-audit | [apify.com/tinyrex/lighthouse-audit](https://apify.com/tinyrex/lighthouse-audit) |
 
 Private / ToS-blocked actors are **not** exposed.
 

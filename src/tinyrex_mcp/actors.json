@@ -117,5 +117,40 @@
     "description": "UK company profiles from the official Companies House API by number or name (user API key for full data).",
     "storeUrl": "https://apify.com/tinyrex/uk-companies-house-lookup",
     "exampleInput": {"companyNumbers": ["00445790"], "includeOfficers": false}
+  },
+  {
+    "name": "bulk-website-screenshot",
+    "title": "Bulk Website Screenshot - Full Page PNG/JPEG from URL List",
+    "description": "Screenshot many URLs in one run: full-page or viewport, PNG/JPEG, desktop/mobile, cookie banners hidden, public image links. $0.002/screenshot ($2/1k), no compute fees; failed URLs free.",
+    "storeUrl": "https://apify.com/tinyrex/bulk-website-screenshot",
+    "exampleInput": {"urls": ["https://example.com", "https://apify.com"]}
+  },
+  {
+    "name": "npi-registry-lookup",
+    "title": "NPI Registry Lookup - Bulk NPI Search & Healthcare Providers",
+    "description": "Bulk NPI lookup and US healthcare provider search from the official CMS NPPES NPI Registry API: NPI numbers or specialty + city/state/ZIP to name, taxonomy, license, practice address and phone. $0.80 per 1,000 records; invalid and not-found NPIs free.",
+    "storeUrl": "https://apify.com/tinyrex/npi-registry-lookup",
+    "exampleInput": {"npis": ["1881018208", "1265131338"]}
+  },
+  {
+    "name": "bulk-email-validator",
+    "title": "Bulk Email Validator - MX, Disposable, Role & Typo Check",
+    "description": "Clean email lists in bulk: syntax, MX/DNS, null MX, disposable, role-based, free-provider and typo checks plus SPF/DMARC. $0.30 per 1,000 emails; bad syntax, duplicates and DNS errors free. No SMTP probing.",
+    "storeUrl": "https://apify.com/tinyrex/bulk-email-validator",
+    "exampleInput": {"emails": ["hello@apify.com", "jane@gmial.com", "test@mailinator.com", "nobody@example.com"]}
+  },
+  {
+    "name": "pdf-ocr-text-extractor",
+    "title": "PDF Text Extractor & OCR - Bulk PDF and Image to Text",
+    "description": "Extract text from PDFs and images in bulk: text layer read exactly, OCR (Tesseract, 8 languages) only on scanned pages. $1.50 per 1,000 PDFs + $0.002 per OCR page; failed downloads and blank pages are free.",
+    "storeUrl": "https://apify.com/tinyrex/pdf-ocr-text-extractor",
+    "exampleInput": {"fileUrls": ["https://www.irs.gov/pub/irs-pdf/fw9.pdf", "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/v16.0.0/tests/resources/ccitt.pdf"]}
+  },
+  {
+    "name": "lighthouse-audit",
+    "title": "Bulk Lighthouse Audit - Core Web Vitals, SEO, Accessibility",
+    "description": "Run real Google Lighthouse audits on many URLs, no API key or PageSpeed quota: performance, accessibility, best practices and SEO scores, Core Web Vitals and top issues. $0.01/audit, no compute fees; failed pages free.",
+    "storeUrl": "https://apify.com/tinyrex/lighthouse-audit",
+    "exampleInput": {"urls": ["https://example.com"]}
   }
 ]

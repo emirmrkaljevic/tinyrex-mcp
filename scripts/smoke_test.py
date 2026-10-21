@@ -34,7 +34,7 @@ async def main() -> int:
             text = listed.content[0].text  # type: ignore[union-attr]
             data = json.loads(text)
             print("actor_count:", data["count"])
-            assert data["count"] == 17
+            assert data["count"] == 22
 
             result = await session.call_tool(
                 "run_actor",
