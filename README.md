@@ -4,7 +4,7 @@
 
 This is a thin stdio [Model Context Protocol](https://modelcontextprotocol.io/) server: it lists the public TinyRex actors and starts a run, then returns dataset items (capped for MCP hosts).
 
-> Actors are **pay-per-event (PPE)** on Apify. Failed or empty runs are often free under TinyRex pricing — check each actor’s Store page. You pay Apify with your own account; this MCP does not bill separately.
+> Actors are **pay-per-event (PPE)** on Apify. Failed or empty runs are often free under TinyRex pricing: check each actor’s Store page. You pay Apify with your own account; this MCP does not bill separately.
 
 ## Install
 
@@ -53,7 +53,7 @@ If the script is not on `PATH`, use the module form:
 
 | Tool | What it does |
 |---|---|
-| `list_actors` | Lists all **22 public** TinyRex actors (name, title, description, Store URL, example input). |
+| `list_actors` | Lists all **27 public** TinyRex actors (name, title, description, Store URL, example input). |
 | `run_actor` | Runs `tinyrex/<name>` with an `input` object, waits for the run, returns dataset items (default max 50) plus `itemCount`, `runId`, and status. |
 
 ### Example: LEI lookup
@@ -95,6 +95,11 @@ If the script is not on `PATH`, use the module form:
 | pdf-ocr-text-extractor | [apify.com/tinyrex/pdf-ocr-text-extractor](https://apify.com/tinyrex/pdf-ocr-text-extractor) |
 | npi-registry-lookup | [apify.com/tinyrex/npi-registry-lookup](https://apify.com/tinyrex/npi-registry-lookup) |
 | lighthouse-audit | [apify.com/tinyrex/lighthouse-audit](https://apify.com/tinyrex/lighthouse-audit) |
+| sec-edgar-filings-scraper | [apify.com/tinyrex/sec-edgar-filings-scraper](https://apify.com/tinyrex/sec-edgar-filings-scraper) |
+| france-company-search | [apify.com/tinyrex/france-company-search](https://apify.com/tinyrex/france-company-search) |
+| norway-company-search | [apify.com/tinyrex/norway-company-search](https://apify.com/tinyrex/norway-company-search) |
+| finland-company-search | [apify.com/tinyrex/finland-company-search](https://apify.com/tinyrex/finland-company-search) |
+| audio-video-transcriber | [apify.com/tinyrex/audio-video-transcriber](https://apify.com/tinyrex/audio-video-transcriber) |
 
 Private / ToS-blocked actors are **not** exposed.
 

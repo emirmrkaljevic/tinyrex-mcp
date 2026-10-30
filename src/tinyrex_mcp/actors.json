@@ -152,5 +152,40 @@
     "description": "Run real Google Lighthouse audits on many URLs, no API key or PageSpeed quota: performance, accessibility, best practices and SEO scores, Core Web Vitals and top issues. $0.01/audit, no compute fees; failed pages free.",
     "storeUrl": "https://apify.com/tinyrex/lighthouse-audit",
     "exampleInput": {"urls": ["https://example.com"]}
+  },
+  {
+    "name": "sec-edgar-filings-scraper",
+    "title": "SEC EDGAR Filings Scraper - 10-K, 10-Q, 8-K by Ticker",
+    "description": "SEC EDGAR filings from the official SEC APIs: tickers or CIKs to 10-K, 10-Q, 8-K, Form 4 and S-1 filings with dates, 8-K items and document links, plus EDGAR full-text search. $0.50 per 1,000 filings; unknown tickers free.",
+    "storeUrl": "https://apify.com/tinyrex/sec-edgar-filings-scraper",
+    "exampleInput": {"companies": ["AAPL", "TSLA"], "formTypes": ["10-K", "8-K"], "maxFilingsPerCompany": 5}
+  },
+  {
+    "name": "france-company-search",
+    "title": "France Company Search - SIREN, SIRET & B2B Lists (Sirene)",
+    "description": "French company data from the official government API: SIREN/SIRET lookup or B2B lists by NAF code, department and size, with address, VAT number, headcount, revenue and directors. $1.50 per 1,000 companies; not found free.",
+    "storeUrl": "https://apify.com/tinyrex/france-company-search",
+    "exampleInput": {"companies": ["552032534", "Michelin"]}
+  },
+  {
+    "name": "norway-company-search",
+    "title": "Norway Company Search - Org Number Lookup & B2B Leads (Brreg)",
+    "description": "Norwegian company data from the official Brreg open data API: org number or name lookup, or B2B lead lists by NACE code, municipality, size and new registrations, with email, phone, website, address and roles. $1 per 1,000 companies; not found free.",
+    "storeUrl": "https://apify.com/tinyrex/norway-company-search",
+    "exampleInput": {"companies": ["923609016", "Telenor"]}
+  },
+  {
+    "name": "finland-company-search",
+    "title": "Finland Company Search - Y-tunnus Lookup & B2B Leads (YTJ/PRH)",
+    "description": "Finnish company data from the official PRH/YTJ open data API: business ID (Y-tunnus) or name lookup, or B2B lead lists by industry, city, postal code, company form and new registrations, with website, address, VAT and employer status. $1 per 1,000 companies; not found free.",
+    "storeUrl": "https://apify.com/tinyrex/finland-company-search",
+    "exampleInput": {"companies": ["0112038-9", "Supercell"]}
+  },
+  {
+    "name": "audio-video-transcriber",
+    "title": "Audio & Video Transcriber (Whisper) - MP3/MP4 to Text, SRT, VTT",
+    "description": "Transcribe audio, video and podcast RSS feeds to text with Whisper in bulk: MP3, M4A, WAV, MP4. Timestamps, SRT and VTT, 99 languages. $0.005 per audio minute; failed links and silence are free.",
+    "storeUrl": "https://apify.com/tinyrex/audio-video-transcriber",
+    "exampleInput": {"mediaUrls": ["https://upload.wikimedia.org/wikipedia/commons/3/3c/Pope_Simplicius_Spoken_Version.ogg"]}
   }
 ]
