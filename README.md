@@ -1,5 +1,7 @@
 # tinyrex-mcp
 
+[![Listed on mcpservers.org](https://img.shields.io/badge/mcpservers.org-listed-blue)](https://mcpservers.org/servers/emirmrkaljevic/tinyrex-mcp)
+
 **Run [TinyRex](https://apify.com/tinyrex) Apify Store actors from any MCP-capable AI agent** (Claude Desktop, Cursor, and others) using **your own** `APIFY_TOKEN`.
 
 This is a thin stdio [Model Context Protocol](https://modelcontextprotocol.io/) server: it lists the public TinyRex actors and starts a run, then returns dataset items (capped for MCP hosts).
