@@ -2,6 +2,8 @@
 
 [![Listed on mcpservers.org](https://img.shields.io/badge/mcpservers.org-listed-blue)](https://mcpservers.org/servers/emirmrkaljevic/tinyrex-mcp)
 
+<a href="https://launchigniter.com/product/tinyrex-mcp?ref=badge-tinyrex-mcp" target="_blank"><img src="https://launchigniter.com/api/badge/tinyrex-mcp?theme=light" alt="Featured on LaunchIgniter" width="212" height="55" /></a>
+
 **Run [TinyRex](https://apify.com/tinyrex) Apify Store actors from any MCP-capable AI agent** (Claude Desktop, Cursor, and others) using **your own** `APIFY_TOKEN`.
 
 This is a thin stdio [Model Context Protocol](https://modelcontextprotocol.io/) server: it lists the public TinyRex actors and starts a run, then returns dataset items (capped for MCP hosts).
