@@ -4,11 +4,11 @@
 
 <a href="https://launchigniter.com/product/tinyrex-mcp?ref=badge-tinyrex-mcp" target="_blank"><img src="https://launchigniter.com/api/badge/tinyrex-mcp?theme=light" alt="Featured on LaunchIgniter" width="212" height="55" /></a>
 
-**Run [TinyRex](https://apify.com/tinyrex) Apify Store actors from any MCP-capable AI agent** (Claude Desktop, Cursor, and others) using **your own** `APIFY_TOKEN`.
+**Run [TinyRex](https://apify.com/tinyrex) Apify Store actors from Claude Desktop, Cursor, and other MCP hosts**, using **your own** `APIFY_TOKEN`.
 
 This is a thin stdio [Model Context Protocol](https://modelcontextprotocol.io/) server: it lists the public TinyRex actors and starts a run, then returns dataset items (capped for MCP hosts).
 
-> Actors are **pay-per-event (PPE)** on Apify. Failed or empty runs are often free under TinyRex pricing: check each actor’s Store page. You pay Apify with your own account; this MCP does not bill separately.
+> Actors are **pay-per-event (PPE)** on Apify. Failed or empty runs are often free under TinyRex pricing: check each actor's Store page. You pay Apify with your own account; this MCP does not bill separately.
 
 ## Install
 
@@ -75,35 +75,35 @@ If the script is not on `PATH`, use the module form:
 
 ## Public actors wrapped
 
-| Actor | Store |
-|---|---|
-| tech-stack-detector | [apify.com/tinyrex/tech-stack-detector](https://apify.com/tinyrex/tech-stack-detector) |
-| ats-jobs-scraper | [apify.com/tinyrex/ats-jobs-scraper](https://apify.com/tinyrex/ats-jobs-scraper) |
-| shopify-products-scraper | [apify.com/tinyrex/shopify-products-scraper](https://apify.com/tinyrex/shopify-products-scraper) |
-| workday-jobs-scraper | [apify.com/tinyrex/workday-jobs-scraper](https://apify.com/tinyrex/workday-jobs-scraper) |
-| woocommerce-products-scraper | [apify.com/tinyrex/woocommerce-products-scraper](https://apify.com/tinyrex/woocommerce-products-scraper) |
-| ted-tenders-scraper | [apify.com/tinyrex/ted-tenders-scraper](https://apify.com/tinyrex/ted-tenders-scraper) |
-| eu-grants-scraper | [apify.com/tinyrex/eu-grants-scraper](https://apify.com/tinyrex/eu-grants-scraper) |
-| remote-jobs-scraper | [apify.com/tinyrex/remote-jobs-scraper](https://apify.com/tinyrex/remote-jobs-scraper) |
-| rss-feed-scraper | [apify.com/tinyrex/rss-feed-scraper](https://apify.com/tinyrex/rss-feed-scraper) |
-| sitemap-scraper | [apify.com/tinyrex/sitemap-scraper](https://apify.com/tinyrex/sitemap-scraper) |
-| contact-details-extractor | [apify.com/tinyrex/contact-details-extractor](https://apify.com/tinyrex/contact-details-extractor) |
-| us-uk-tenders-scraper | [apify.com/tinyrex/us-uk-tenders-scraper](https://apify.com/tinyrex/us-uk-tenders-scraper) |
-| tenderned-tenders-scraper | [apify.com/tinyrex/tenderned-tenders-scraper](https://apify.com/tinyrex/tenderned-tenders-scraper) |
-| seo-on-page-audit | [apify.com/tinyrex/seo-on-page-audit](https://apify.com/tinyrex/seo-on-page-audit) |
-| broken-link-checker | [apify.com/tinyrex/broken-link-checker](https://apify.com/tinyrex/broken-link-checker) |
-| gleif-lei-lookup | [apify.com/tinyrex/gleif-lei-lookup](https://apify.com/tinyrex/gleif-lei-lookup) |
-| uk-companies-house-lookup | [apify.com/tinyrex/uk-companies-house-lookup](https://apify.com/tinyrex/uk-companies-house-lookup) |
-| bulk-website-screenshot | [apify.com/tinyrex/bulk-website-screenshot](https://apify.com/tinyrex/bulk-website-screenshot) |
-| bulk-email-validator | [apify.com/tinyrex/bulk-email-validator](https://apify.com/tinyrex/bulk-email-validator) |
-| pdf-ocr-text-extractor | [apify.com/tinyrex/pdf-ocr-text-extractor](https://apify.com/tinyrex/pdf-ocr-text-extractor) |
-| npi-registry-lookup | [apify.com/tinyrex/npi-registry-lookup](https://apify.com/tinyrex/npi-registry-lookup) |
-| lighthouse-audit | [apify.com/tinyrex/lighthouse-audit](https://apify.com/tinyrex/lighthouse-audit) |
-| sec-edgar-filings-scraper | [apify.com/tinyrex/sec-edgar-filings-scraper](https://apify.com/tinyrex/sec-edgar-filings-scraper) |
-| france-company-search | [apify.com/tinyrex/france-company-search](https://apify.com/tinyrex/france-company-search) |
-| norway-company-search | [apify.com/tinyrex/norway-company-search](https://apify.com/tinyrex/norway-company-search) |
-| finland-company-search | [apify.com/tinyrex/finland-company-search](https://apify.com/tinyrex/finland-company-search) |
-| audio-video-transcriber | [apify.com/tinyrex/audio-video-transcriber](https://apify.com/tinyrex/audio-video-transcriber) |
+`list_actors` returns all 27 public TinyRex actors. Store pages:
+
+- [tech-stack-detector](https://apify.com/tinyrex/tech-stack-detector)
+- [ats-jobs-scraper](https://apify.com/tinyrex/ats-jobs-scraper)
+- [shopify-products-scraper](https://apify.com/tinyrex/shopify-products-scraper)
+- [workday-jobs-scraper](https://apify.com/tinyrex/workday-jobs-scraper)
+- [woocommerce-products-scraper](https://apify.com/tinyrex/woocommerce-products-scraper)
+- [ted-tenders-scraper](https://apify.com/tinyrex/ted-tenders-scraper)
+- [eu-grants-scraper](https://apify.com/tinyrex/eu-grants-scraper)
+- [remote-jobs-scraper](https://apify.com/tinyrex/remote-jobs-scraper)
+- [rss-feed-scraper](https://apify.com/tinyrex/rss-feed-scraper)
+- [sitemap-scraper](https://apify.com/tinyrex/sitemap-scraper)
+- [contact-details-extractor](https://apify.com/tinyrex/contact-details-extractor)
+- [us-uk-tenders-scraper](https://apify.com/tinyrex/us-uk-tenders-scraper)
+- [tenderned-tenders-scraper](https://apify.com/tinyrex/tenderned-tenders-scraper)
+- [seo-on-page-audit](https://apify.com/tinyrex/seo-on-page-audit)
+- [broken-link-checker](https://apify.com/tinyrex/broken-link-checker)
+- [gleif-lei-lookup](https://apify.com/tinyrex/gleif-lei-lookup)
+- [uk-companies-house-lookup](https://apify.com/tinyrex/uk-companies-house-lookup)
+- [bulk-website-screenshot](https://apify.com/tinyrex/bulk-website-screenshot)
+- [bulk-email-validator](https://apify.com/tinyrex/bulk-email-validator)
+- [pdf-ocr-text-extractor](https://apify.com/tinyrex/pdf-ocr-text-extractor)
+- [npi-registry-lookup](https://apify.com/tinyrex/npi-registry-lookup)
+- [lighthouse-audit](https://apify.com/tinyrex/lighthouse-audit)
+- [sec-edgar-filings-scraper](https://apify.com/tinyrex/sec-edgar-filings-scraper)
+- [france-company-search](https://apify.com/tinyrex/france-company-search)
+- [norway-company-search](https://apify.com/tinyrex/norway-company-search)
+- [finland-company-search](https://apify.com/tinyrex/finland-company-search)
+- [audio-video-transcriber](https://apify.com/tinyrex/audio-video-transcriber)
 
 Private / ToS-blocked actors are **not** exposed.
 
