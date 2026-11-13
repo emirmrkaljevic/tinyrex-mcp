@@ -11,6 +11,8 @@ import sys
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
 
+from tinyrex_mcp.server import _load_actors
+
 
 async def main() -> int:
     if not os.environ.get("APIFY_TOKEN"):
@@ -34,7 +36,12 @@ async def main() -> int:
             text = listed.content[0].text  # type: ignore[union-attr]
             data = json.loads(text)
             print("actor_count:", data["count"])
-            assert data["count"] == 22
+            catalog = _load_actors()
+            assert data["count"] == len(catalog)
+            listed_names = {a["name"] for a in data["actors"]}
+            catalog_names = {a["name"] for a in catalog}
+            assert listed_names == catalog_names
+            assert "gleif-lei-lookup" in listed_names
 
             result = await session.call_tool(
                 "run_actor",

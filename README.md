@@ -73,6 +73,8 @@ If the script is not on `PATH`, use the module form:
 }
 ```
 
+More prompt-to-tool-call examples are in [docs/examples.md](docs/examples.md).
+
 ## Public actors wrapped
 
 `list_actors` returns all 27 public TinyRex actors. Store pages:
@@ -122,7 +124,9 @@ pip install -e .
 APIFY_TOKEN=... tinyrex-mcp   # stdio MCP
 ```
 
-Smoke-test helpers (list tools + one cheap run) live in `scripts/smoke_test.py`.
+Unit tests that do not need an Apify token: `python -m unittest discover -s tests`.
+
+Smoke-test helpers (list tools + one cheap run, needs `APIFY_TOKEN`) live in `scripts/smoke_test.py`.
 
 ## License
 
