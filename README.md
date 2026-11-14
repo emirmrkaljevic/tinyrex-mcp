@@ -125,6 +125,7 @@ APIFY_TOKEN=... tinyrex-mcp   # stdio MCP
 ```
 
 Unit tests that do not need an Apify token: `python -m unittest discover -s tests`.
+The same suite runs on Python 3.11, 3.12 and 3.13 in GitHub Actions on every push and pull request.
 
 Smoke-test helpers (list tools + one cheap run, needs `APIFY_TOKEN`) live in `scripts/smoke_test.py`.
 
