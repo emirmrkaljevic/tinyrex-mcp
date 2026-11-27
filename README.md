@@ -1,6 +1,7 @@
 # tinyrex-mcp
 
 [![Listed on mcpservers.org](https://img.shields.io/badge/mcpservers.org-listed-blue)](https://mcpservers.org/servers/emirmrkaljevic/tinyrex-mcp)
+[![emirmrkaljevic/tinyrex-mcp MCP server](https://glama.ai/mcp/servers/emirmrkaljevic/tinyrex-mcp/badges/score.svg)](https://glama.ai/mcp/servers/emirmrkaljevic/tinyrex-mcp)
 
 <a href="https://launchigniter.com/product/tinyrex-mcp?ref=badge-tinyrex-mcp" target="_blank"><img src="https://launchigniter.com/api/badge/tinyrex-mcp?theme=light" alt="Featured on LaunchIgniter" width="212" height="55" /></a>
 
